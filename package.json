@@ -1,0 +1,42 @@
+{
+  "name": "aura-os",
+  "version": "1.0.0",
+  "description": "AURA OS - Centralized Business Management System",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:studio": "prisma studio",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next": "^14.0.0",
+    "typescript": "^5.3.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@types/node": "^20.0.0",
+    "@prisma/client": "^5.7.0",
+    "prisma": "^5.7.0",
+    "tailwindcss": "^3.3.0",
+    "postcss": "^8.4.0",
+    "autoprefixer": "^10.4.0",
+    "bcryptjs": "^2.4.3",
+    "zod": "^3.22.4",
+    "framer-motion": "^10.16.0",
+    "lucide-react": "^0.292.0",
+    "clsx": "^2.0.0",
+    "dotenv": "^16.3.1",
+    "next-auth": "^4.24.5",
+    "next-intl": "^2.20.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "eslint-config-next": "^14.0.0"
+  }
+}
